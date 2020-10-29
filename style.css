@@ -1,0 +1,146 @@
+
+#follow {
+    margin: 0px;
+    background: e6eeee;
+    z-index: 2;
+    position: fixed;
+    
+    }
+.fullsc{
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.sidebar{
+    position: absolute;
+    font-size: large;
+    padding: 1%;
+}
+@media (min-aspect-ratio: 16/9) {
+    .sidebar{
+        width: 200px;
+        position: fixed; 
+        top: 14.5%; 
+        bottom: 0%;
+        margin-top: 150px;
+        background: #3E80B1!important;
+        border-top-right-radius: 0.3em;
+    }
+
+    .main_container {
+        margin-left: 200px;
+        padding: 15px;
+        transition: all 0.3s ease;
+    }
+ 
+    
+}
+  @media (max-aspect-ratio: 16/9) {
+    .sidebar{
+
+        width: 200px;
+        position: fixed; 
+        right: 10px; 
+        top: 0%; 
+        padding: 10px; 
+    }
+    .main_container {
+        margin-left: 0%;
+        padding: 15px;
+        transition: all 0.3s ease;
+    }
+    #panel, #flip {
+        padding: 5px;
+        text-align: center;
+        background: #3E80B1!important;
+        border: solid 1px #517a9993;
+        border-bottom-left-radius: 0.3em;
+        border-bottom-right-radius: 0.3em;
+      }
+      
+      #panel {
+          width: 100%;
+        padding: 20px;
+        display: none;
+      }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+ul li{
+    padding: 20px
+}
+
+.left__item{
+    color: white;
+}
+
+
+
+
+
+.navbar{
+    background: #3E80B1!important;
+}
+
+
+.logo{
+    width: 150px;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.card-title{
+
+}
+
+
+ .guruweba_example_form {
+    width: 290px;
+  }
+  .guruweba_example_caption {
+    font-size: 24px;
+    text-align: center;
+  }
+  .guruweba_example_form .guruweba_example_infofield {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .guruweba_example_form select, .guruweba_example_form input, .guruweba_example_form textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 15px;
+  }
+
